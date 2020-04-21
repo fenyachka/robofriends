@@ -1,9 +1,12 @@
 import React from 'react';
 import Card from './Card';
+import ErrorBoundry from './ErrorBoundry';
 
 const CardList = ({ robots }) => {
-
-    return (
+    // if(true){
+    //     throw new Error('Nooo');
+    // }
+    return ( 
         <div>
             {
                 robots.map((user, i) => {
